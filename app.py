@@ -1,7 +1,3 @@
-name = 'Time'
+name = 'time.'
 
-print(name.upper())
-print(name.lower())
-
-print(name.isupper())
-print(name.islower())
+print(len(name))
