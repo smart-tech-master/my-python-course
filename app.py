@@ -1,6 +1,6 @@
-name = 'time.'
+num = 100;
+num2 = str(100);
 
-print(len(name))
+# print(num * num2);
 
-'https://www.youtube.com/watch?v=jBzwzrDvZ18'
-28.16
+print("The value is" + num2)
