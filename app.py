@@ -1,2 +1,3 @@
-name = input('input your name :');
-print(name)
+countries = ['United States', 'Ghana', 'Nigeria', 'Australia'];
+# name = 'Tomi';
+print(countries[1:]);
