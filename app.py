@@ -1,7 +1,5 @@
-try:
-    x = int(input('Please input an integer: '));
-    print(x);
-except:
-    print('something went wrong');
-finally:
-    print('completed all')
+countries_file = open('countries.txt','r');
+print(countries_file.readlines());
+for files in countries_file.readlines():
+    print(files);
+countries_file.close();
