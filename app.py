@@ -1,8 +1,5 @@
-a = 20;
-
-if a % 5 == 0:
-    print('yes');
-elif a == 0:
-    print('maybe');
-else:
-    print('no');
+try:
+    x = int(input('Please input an integer: '));
+    print(x);
+except:
+    print('something went wrong')
