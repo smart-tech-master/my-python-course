@@ -1,5 +1,5 @@
-countries = ['United States', 'Ghana', 'Nigeria', 'Australia', 'New Ziland'];
-# name = 'Tomi';
-print(countries[-1]);
-print(countries[-2]);
-print(len(countries));
+list1 = [1,2,3,4];
+list2 = ['Aplle', 'Banana', 'Mango', 'orange'];
+
+list1.extend(list2);
+print(list1);
