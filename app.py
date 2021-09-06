@@ -1,2 +1,2 @@
-countries_file = open('countries.txt','w');
-countries_file.write('This is new text');
+countries_file = open('./country.txt','a');
+countries_file.write('\nThis is new country file');
