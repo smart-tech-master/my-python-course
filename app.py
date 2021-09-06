@@ -1,5 +1,2 @@
-countries_file = open('countries.txt','r');
-print(countries_file.readlines());
-for files in countries_file.readlines():
-    print(files);
-countries_file.close();
+countries_file = open('countries.txt','w');
+countries_file.write('This is new text');
